@@ -1,0 +1,139 @@
+body {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Merriweather', serif;
+  background-color: black;
+  color: #fff;
+}
+
+h1 {
+  color: #FE4531;
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #00bb74;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #C7493A;
+}
+
+.top_container {
+  position: relative;
+  padding-top: 100px;
+  margin-bottom: 30px;
+}
+
+.portrait {
+  width: 180px;
+}
+
+.top-para {
+  width: 50%;
+  margin: 30px auto;
+}
+
+.bottom-fig-left {
+  position: absolute;
+  top: 50px;
+  left: 300px;
+}
+
+.top-fig {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.skills {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.coding {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+  border-radius: 100%;
+}
+
+.bot-skill {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+  border-radius: 100%;
+}
+
+.line {
+  max-width: 100px;
+  border-top: 10px dotted gray;
+  margin: 100px auto;
+}
+
+.bottom-para {
+  margin: 20px;
+  margin: 30px auto;
+  width: 50%;
+}
+
+.bottom-container {
+  background-color: #00bb74;
+  padding: 50px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+button {
+  display: block;
+  font-size: 19px;
+  padding: 11.2px 28.8px;
+  border: none;
+  border-radius: 30px;
+  background-color: #FE4531;
+  color: #fff;
+  box-shadow: 1px 3px 10px #2d2c2d94;
+  margin: 50px auto 100px;
+}
+
+button:hover {
+  background-color: #00bb74;
+  transition: 500ms;
+}
+
+ion-icon {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  text-align: center;
+  line-height: 20px;
+  vertical-align: middle;
+  padding: 15px;
+}
+
+ion-icon:hover {
+  background-color: #FE4531;
+  transition: 500ms;
+}
