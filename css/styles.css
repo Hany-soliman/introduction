@@ -25,11 +25,17 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   color: #C7493A;
 }
+p{
+  line-height: 2;
+}
 
 .top_container {
   position: relative;
   padding-top: 100px;
   margin-bottom: 30px;
+}
+.middle-container{
+  margin-top: 30px;
 }
 
 .portrait {
@@ -37,7 +43,7 @@ h3 {
 }
 
 .top-para {
-  width: 50%;
+  width: 30%;
   margin: 30px auto;
 }
 
