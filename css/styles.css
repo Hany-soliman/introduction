@@ -25,7 +25,8 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   color: #C7493A;
 }
-p{
+
+p {
   line-height: 2;
 }
 
@@ -34,7 +35,8 @@ p{
   padding-top: 100px;
   margin-bottom: 30px;
 }
-.middle-container{
+
+.middle-container {
   margin-top: 30px;
 }
 
@@ -142,4 +144,11 @@ ion-icon {
 ion-icon:hover {
   background-color: #FE4531;
   transition: 500ms;
+}
+
+@media (max-width:1230px) {
+  body {
+    text-align: center;
+    display: grid;
+  }
 }
